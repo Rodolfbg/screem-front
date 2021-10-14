@@ -1,6 +1,6 @@
 
 function Tela(){
-   
+   //ESTA MANEIRA ESTA INCORRETA
   return(<div id="add">
         <input type="text" placeholder="Login"></input>
         <input type="text" placeholder="passworld"></input>

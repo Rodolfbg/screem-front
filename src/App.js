@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Tela from './tele';
+
+import Login from './pages/login/login';
 
 function App() {
   return (
-      <Tela/>
+      <Login/>
   );
 }
 

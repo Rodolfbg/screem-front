@@ -1,7 +1,11 @@
 import './loginCss.css';
-
+import {
+   useHistory
+  } from "react-router-dom";
 
 function Login(){
+
+    const link = useHistory();
    
   return(
       <div id="full">
@@ -14,6 +18,6 @@ function Login(){
 
       </div>
   )};
-
+// criar no backend um codigo para criar a senha e deixar ele restrita não pode criar a mesma outra vez
 
   export default Login; 

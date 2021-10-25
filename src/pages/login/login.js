@@ -1,6 +1,7 @@
 import './loginCss.css';
 import http from '../../service/api'
 import {
+  Link,
    useHistory
   } from "react-router-dom";
 
@@ -34,7 +35,7 @@ function Login(){
               <input id="imp1" type="text" placeholder="Login"></input>
               <input id="imp2" type="text" placeholder="passworld"></input>
               <input id="imp3" onClick={login} type="button" value="Entar"></input>
-              <a href="/cadastrar">cadastrar</a>
+              <Link to="/cadastrar">cadastrar</Link>
           </div>
 
       </div>

@@ -1,13 +1,18 @@
-import './loginCss.css';
-import http from '../../service/api'
+
+//import http from '../../service/api'
+import React from "react";
 import {
   Link,
    useHistory
   } from "react-router-dom";
 
+import ContainerAll from "../../components/screem/screem";
+import SignInBlock from "../../components/signin/sign_conect";
+import TopBox from "../../components/topbox/topbox";
+
 function Login(){
 
-    const link = useHistory();
+   /* const link = useHistory();
 
     async function login(){
       try {
@@ -27,18 +32,15 @@ function Login(){
         console.error(error)
       }
     }
-   
+    */
   return(
-      <div id="full">
-  
-          <div id="add">
-              <input id="imp1" type="text" placeholder="Login"></input>
-              <input id="imp2" type="text" placeholder="passworld"></input>
-              <input id="imp3" onClick={login} type="button" value="Entar"></input>
-              <Link to="/cadastrar">cadastrar</Link>
-          </div>
+     <ContainerAll>
+       <TopBox/>
+       <SignInBlock/>
+    </ContainerAll>  
+    
 
-      </div>
+     
   )};
 // criar no backend um codigo para criar a senha e deixar ele restrita não pode criar a mesma outra vez
 

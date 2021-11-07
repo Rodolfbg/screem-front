@@ -1,0 +1,18 @@
+#box{
+    width: 100%;
+    height: 80px;
+    background: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.8575805322128851) 18%, rgba(0,212,255,0) 100%);
+    align-items: center;
+    top:0px;
+    
+}
+#logofl{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    left: 2%;
+}

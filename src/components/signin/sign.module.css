@@ -1,0 +1,7 @@
+#SignInBlock{
+    width: 35%;
+    height: 90%;
+    background: red;
+    display: flex;
+    justify-content: center;
+}

@@ -1,4 +1,4 @@
-import './stil.css';
+
 
 function cadsastro(){
     return(

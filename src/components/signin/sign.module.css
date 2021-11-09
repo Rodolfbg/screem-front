@@ -1,7 +1,27 @@
 #SignInBlock{
     width: 35%;
     height: 90%;
-    background: red;
+    background: #000000b0;
     display: flex;
     justify-content: center;
+    border-radius: 5px;
+    z-index: 999;
 }
+#InputSign{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+}
+#InputInfo{
+    height: 50%;
+
+}
+
+
+ .teste {
+    color: 'green',
+  }
+
+ 
+  

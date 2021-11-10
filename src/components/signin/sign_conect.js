@@ -8,11 +8,12 @@ export default function SignInBlock(props){
         <TextField InputProps={{ disableUnderline: true }} {...props} />
       ))(({ theme }) => ({
         '& label.Mui-focused': {
-            color: '#fafafa',
+            color: '#8c8c8c',
           },
           '& label': {
-            color: '#fafafa !important',
-            fontSize: '12px',
+            color: '#8c8c8c !important',
+            fontSize: '16px',
+            margin:'10px'
           },
 
         '& .MuiFilledInput-root': {
@@ -20,6 +21,8 @@ export default function SignInBlock(props){
           borderRadius: 4,
           backgroundColor: '#333',
           color:"#8c8c8c",
+          margin: '10px',
+          
           transition: theme.transitions.create([
             'border-color',
             'background-color',
@@ -37,8 +40,10 @@ export default function SignInBlock(props){
         <div id={style.SignInBlock}>
             {props.children}
             <div id={style.InputSign}>
+                <h1 id={style.text}>Entrar</h1>
               
-                <RedditTextField id="filled-basic" label="E-mail ou número de telefone" variant="filled" />
+                <RedditTextField id="filled-basic-one" label="Email ou número de telefone" variant="filled" />
+                <RedditTextField id="filled-basic-two" label="Senha" variant="filled" />
             
             
             </div>

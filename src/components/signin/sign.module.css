@@ -1,6 +1,6 @@
 #SignInBlock{
-    width: 35%;
-    height: 90%;
+    width: 450px;
+    height: 660px;
     background: #000000b0;
     display: flex;
     justify-content: center;
@@ -11,13 +11,23 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 50%;
+    height: 314px;
+    width: 335px;
 }
 #InputInfo{
     height: 50%;
 
 }
-
+#text{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    position: relative;
+    top: 20px;
+    left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
  .teste {
     color: 'green',

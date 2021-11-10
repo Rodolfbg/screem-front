@@ -41,10 +41,18 @@ export default function SignInBlock(props){
             {props.children}
             <div id={style.InputSign}>
                 <h1 id={style.text}>Entrar</h1>
-              
                 <RedditTextField id="filled-basic-one" label="Email ou número de telefone" variant="filled" />
                 <RedditTextField id="filled-basic-two" label="Senha" variant="filled" />
-            
+                <input type="button" id={style.buttonOn} value='Entrar'></input>
+            </div>
+            <div id={style.info}>
+                <div id={style.box} >
+                  <input id={style.checkbox} type="checkbox"></input>
+                  <label id={style.textRemenber}>Lembre-se de mim</label>
+                </div>
+                <div id={style.help}>
+                  <a id={style.textHelp}>Precisa de ajuda?</a>
+                </div>
             
             </div>
             <div id={style.InputInfo}></div>

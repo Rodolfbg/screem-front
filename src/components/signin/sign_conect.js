@@ -3,6 +3,9 @@ import style from '../signin/sign.module.css'
 import {TextField,Box,styled,alpha} from '@material-ui/core';
 
 
+const fbimg = `https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png`
+
+
 export default function SignInBlock(props){
     const RedditTextField = styled((props) => (
         <TextField InputProps={{ disableUnderline: true }} {...props} />
@@ -55,7 +58,19 @@ export default function SignInBlock(props){
                 </div>
             
             </div>
-            <div id={style.InputInfo}></div>
+            <div id={style.InputInfo}>
+                <div id={style.fbconect}>
+                  <img id={style.imgFace} src={fbimg}></img>
+                  <label id={style.textConect}>Conectar com facebook</label>
+                </div>
+                <div id={style.buyassin}>
+                  <label className={style.textBuy}>Novo por aqui?</label> 
+                  <label className={style.textBuy}>Assine agora</label> 
+                </div>
+                <div id={style.protectpage}>
+                  <label id={style.protect}>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. Saiba mais.</label>
+                </div>
+            </div>
         </div>
     )
 };

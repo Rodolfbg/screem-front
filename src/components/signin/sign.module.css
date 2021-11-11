@@ -19,6 +19,10 @@
 #InputInfo{
     height: 200px;
     width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 #text{
@@ -29,7 +33,7 @@
     position: relative;
     top: 20px;
     left: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
  .teste {
@@ -60,6 +64,7 @@
 #textRemenber{
     color: #8c8c8c;
     display: flex;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     
 }
 #textHelp{
@@ -67,7 +72,8 @@
     display: flex;
     position: relative;
     display: flex;
-    right: -50px;
+    left: 31px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 
 }
 #box{
@@ -84,5 +90,48 @@
 #help{
     width: 50%;
 }
- 
-  
+#fbconect{
+    width: 314px;
+    height: 36px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#buyassin{
+    width: 314px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+}
+#protectpage{
+    width: 314px;
+    height: 141px;
+}
+#imgFace{
+    margin: 2px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 4px;
+}
+#textConect{
+    color: #8c8c8c;
+    display: flex;
+    font-family: nf-icon;
+}
+.textBuy{
+    color: #8c8c8c;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#protect{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #8c8c8c;
+    display: flex;
+    font-size: 12px;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+
+}

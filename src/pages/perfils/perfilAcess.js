@@ -1,13 +1,12 @@
 import React from "react";
 
+import PerfilFull from "../../components/screemPerfil/perfilFull";
 
-import PerfilFull from `../../components/screemPerfil/perfilFull`
 
-
-function perfil(){
+function Perfil(){
     return(
          <PerfilFull></PerfilFull>
         
-    )}
+    )};
 
-export default cadsastro;
+export default Perfil;

@@ -1,12 +1,10 @@
 import React from "react";
+import style from '../screemPerfil/perfilFull.module.css';
 
 export default function PerfilFull(props){
     return(
-        <div>
+        <div id={style.perfil}>
             {props.children}
-            <div></div>
-            <div></div>
-            <div></div>
         </div>
 
     )

@@ -1,5 +1,3 @@
-
-//import http from '../../service/api'
 import React from "react";
 import {
   Link,

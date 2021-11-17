@@ -5,17 +5,20 @@ import {
     Redirect,
     Link
   } from "react-router-dom";
-  
+
   import Login from "./pages/login/login";
-  import principal from "./pages/principal/principalpg";
-  import cadsastro from "./pages/cadastrar/cadastro";
+  import principal from "../src/pages/principal/menuFlix";
+  import perfil from "./pages/perfils/perfilAcess";
+
+  
+  
   const Routes = () =>{
     return(
         <Router>
             <Switch>
-                <Route exact path="/" component={Login} />        
-                <Route path="/home" component={principal} />
-                <Route path="/cadastrar" component={cadsastro} />
+                <Route exact path="/Login" component={Login} />        
+                <Route path="/principal" component={principal} />
+                <Route path="/perfil" component={perfil} />
                 
             </Switch>
         </Router>
